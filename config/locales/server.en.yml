@@ -1,0 +1,4 @@
+en:
+  site_settings:
+    discourse_sentry_enabled: "Enable Discourse Sentry plugin"
+    discourse_sentry_dsn: "Sentry DSN"

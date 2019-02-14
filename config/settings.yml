@@ -1,0 +1,7 @@
+plugins:
+  discourse_sentry_enabled:
+    default: true
+    client: true
+  discourse_sentry_dsn:
+    default: ""
+    client: true
