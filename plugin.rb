@@ -1,10 +1,11 @@
+# frozen_string_literal: true
 # name: discourse-sentry
 # about: Discourse plugin to integrate Sentry (sentry.io)
-# version: 1.0
+# version: 1.1
 # authors: debtcollective
 # url: https://github.com/debtcollective/discourse-sentry
 
-gem "sentry-raven", "2.9.0"
+gem "sentry-raven", "2.13.0"
 
 enabled_site_setting :discourse_sentry_enabled
 
@@ -26,5 +27,9 @@ after_initialize do
         Raven.extra_context(params: params.to_unsafe_h, url: request.url)
       end
     end
+
+    extend_content_security_policy(
+      script_src: ['https://browser.sentry-cdn.com/5.11.1/bundle.min.js']
+    )
   end
 end
