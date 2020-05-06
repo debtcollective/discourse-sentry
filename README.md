@@ -6,8 +6,13 @@ Integrate [Sentry](https://sentry.io) with Discourse.
 
 This plugin uses the following Sentry versions:
 
+<<<<<<< HEAD
 - [sentry-raven:3.0.0](https://rubygems.org/gems/sentry-raven/versions/3.0.0)
 - [@sentry/browser:5.15.5](https://www.npmjs.com/package/@sentry/browser/v/5.15.5)
+=======
+- [sentry-raven:2.13.0](https://rubygems.org/gems/sentry-raven/versions/2.13.0)
+- [@sentry/browser:5.11.0](https://www.npmjs.com/package/@sentry/browser/v/5.11.0)
+>>>>>>> 2e74468dfa17b9cd1ced16568d6981c95a4109af
 
 ## Installation
 
