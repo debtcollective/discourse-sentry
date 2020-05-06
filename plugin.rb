@@ -5,11 +5,7 @@
 # authors: debtcollective
 # url: https://github.com/debtcollective/discourse-sentry
 
-<<<<<<< HEAD
 gem "sentry-raven", "3.0.0"
-=======
-gem "sentry-raven", "2.13.0"
->>>>>>> 2e74468dfa17b9cd1ced16568d6981c95a4109af
 
 enabled_site_setting :discourse_sentry_enabled
 
@@ -33,7 +29,7 @@ after_initialize do
     end
 
     extend_content_security_policy(
-      script_src: ['https://browser.sentry-cdn.com/5.11.1/bundle.min.js']
+      script_src: ['https://browser.sentry-cdn.com/5.15.5/bundle.min.js']
     )
   end
 end
