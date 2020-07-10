@@ -29,7 +29,7 @@ after_initialize do
     end
 
     extend_content_security_policy(
-      script_src: ['https://browser.sentry-cdn.com/5.15.5/bundle.min.js']
+      script_src: ['https://browser.sentry-cdn.com/5.19.1/bundle.min.js']
     )
   end
 end

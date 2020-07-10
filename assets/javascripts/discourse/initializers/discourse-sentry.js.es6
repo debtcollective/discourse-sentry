@@ -1,6 +1,6 @@
 import { withPluginApi } from 'discourse/lib/plugin-api'
 
-const sentryBrowserVersion = '5.15.5'
+const sentryBrowserVersion = '5.19.1'
 
 export default {
   name: 'discourse-sentry',
